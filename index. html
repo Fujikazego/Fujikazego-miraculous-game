@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Miraculous Hero Game</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<main class="game-shell">
+
+  <header class="topbar">
+    <div>
+      <h1>🐞 Miraculous Hero</h1>
+      <p>Protect Paris from the akuma!</p>
+    </div>
+
+    <div class="stats">
+      <span>⭐ Score: <b id="score">0</b></span>
+      <span>❤️ Lives: <b id="lives">3</b></span>
+    </div>
+  </header>
+
+  <section id="game" class="game">
+
+    <div class="skyline"></div>
+
+    <div id="player" class="player">
+      🐞
+    </div>
+
+    <div id="power" class="power">
+      LUCKY CHARM!
+    </div>
+
+    <div class="instructions">
+      <span>← → / A D</span> Move
+      <span>SPACE</span> Lucky Charm
+    </div>
+
+    <div id="message" class="message">
+
+      <h2>Ready, Hero?</h2>
+
+      <p>
+        Catch the ladybugs and avoid the akuma!
+      </p>
+
+      <button id="startBtn">
+        START GAME
+      </button>
+
+    </div>
+
+  </section>
+
+</main>
+
+<script src="game.js"></script>
+
+</body>
+</html>
